@@ -15,7 +15,7 @@ appendRow.addEventListener('click', () => {
   table.append(cloneRow);
 
   if (rowsCount >= 9) {
-    appendRow.setAttribute('disabled', 'disable');
+    appendRow.setAttribute('disabled', 'disabled');
   }
 
   if (rowsCount >= 2) {
@@ -34,7 +34,7 @@ removeRow.addEventListener('click', () => {
   }
 
   if (rowsCount <= 3) {
-    removeRow.setAttribute('disabled', 'disable');
+    removeRow.setAttribute('disabled', 'disabled');
   }
 });
 
@@ -50,7 +50,7 @@ appendColumn.addEventListener('click', () => {
   });
 
   if (columnCount >= 9) {
-    appendColumn.setAttribute('disabled', 'disable');
+    appendColumn.setAttribute('disabled', 'disabled');
   }
 
   if (columnCount >= 2) {
@@ -70,7 +70,7 @@ removeColumn.addEventListener('click', () => {
   });
 
   if (columnCount <= 3) {
-    removeColumn.setAttribute('disabled', 'disable');
+    removeColumn.setAttribute('disabled', 'disabled');
   }
 
   if (columnCount <= 10) {
